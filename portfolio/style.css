@@ -1,0 +1,93 @@
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans+Condensed:wght@300&family=Oswald:wght@200;300&display=swap');
+    ul {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    .contato>ul {
+        display: flex;
+        padding: 0px;
+    }
+    
+    .contato>ul>div {
+        padding: 0px 10px;
+    }
+    
+    .topo {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(1, 99, 145);
+        ;
+    }
+    
+    .tecnologias>ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0px;
+    }
+    
+    .home {
+        margin: 5px 20px;
+    }
+    
+    .nome {
+        text-align: center;
+    }
+    
+    div.nome>h1 {
+        font-size: 60px;
+        font-family: "Open Sans Condensed";
+        /*         color: rgb(77, 59, 0);
+ */
+        margin: 160px 0px 0px;
+    }
+    
+    div.nome>p {
+        font-size: 20px;
+        /*         color: rgb(77, 59, 0);
+ */
+        font-family: "Open Sans Condensed";
+        margin: 0px;
+    }
+    
+    .menu>ul {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(145, 176, 190);
+        margin: 0px;
+        padding: 10px;
+        font-family: "Bebas Neue";
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        background-color: rgb(145, 176, 190);
+        font-size: 15px;
+        width: 100%;
+    }
+    
+    footer>p {
+        border: 2px;
+        margin: 5px;
+        padding: 0px 10px;
+        text-align: center;
+    }
+    
+    #flutuante {
+        position: fixed;
+        width: 100%;
+        margin-top: -160px;
+        right: 0;
+    }
+    
+    h1,
+    p,
+    a {
+        color: rgb(0, 48, 70);
+    }
